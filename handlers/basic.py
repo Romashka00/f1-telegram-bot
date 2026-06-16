@@ -17,6 +17,7 @@ async def cmd_help(message: types.Message):
     await message.answer(
         "Доступные команды:\n"
         "/start — начать\n"
-        "/help — это сообщение"
-        # сюда позже добавишь команды из шага 4
+        "/help — это сообщение\n"
+        "/next_race - следущая гонка\n"
+        "/standings - таблица лидеров"
     )
